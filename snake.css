@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+  }
+  
+  .game-container {
+    position: relative;
+    background-color: beige;
+  }
+  
+  #game-area {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .snake-node {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    position: absolute;
+  }
+  
+  .food-node {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+  }
+  
+  #score {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
